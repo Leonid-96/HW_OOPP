@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 public class RadioTest {
 
-
     @Test
     public void shouldSetRadioStation() {
         Radio rad = new Radio();
@@ -83,7 +82,6 @@ public class RadioTest {
     public void shouldPrevRadioStation() {
         Radio rad = new Radio();
         rad.setNumberCurrentRadioStation(7);
-
         rad.prevRadioStation();
 
         int expected = 6;
