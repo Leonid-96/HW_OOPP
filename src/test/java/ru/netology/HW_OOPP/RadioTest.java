@@ -82,7 +82,6 @@ public class RadioTest {
     public void shouldPrevRadioStation() {
         Radio rad = new Radio();
         rad.setNumberCurrentRadioStation(7);
-
         rad.prevRadioStation();
 
         int expected = 6;
